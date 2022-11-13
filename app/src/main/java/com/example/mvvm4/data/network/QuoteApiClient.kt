@@ -9,4 +9,5 @@ interface QuoteApiClient {
     suspend fun getAllQuotes(): Response<List<QuoteModel>>
     //donde llamamos esta función, desde una class llamada QuoteService y de ahí un repositorio que nos dirá si
     //sacó la inforación desde internet o localmente
+
 }

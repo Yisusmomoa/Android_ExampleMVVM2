@@ -24,11 +24,11 @@ class QuoteViewModel :ViewModel(){
 
     fun randomeQuote(){
         isLoading.postValue(true)
-        val result=getRandomQuoteUseCase()
+        /*val result=getRandomQuoteUseCase()
         if (result!=null){
             quoteModel.postValue(result)
             isLoading.postValue(true)
-        }
+        }*/
     }
 
     fun onCreate() {

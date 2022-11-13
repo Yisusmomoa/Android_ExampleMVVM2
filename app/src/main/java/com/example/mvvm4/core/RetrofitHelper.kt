@@ -8,7 +8,7 @@ object RetrofitHelper {
     //configuración de retrofift
     fun getRetrofit():Retrofit{
         return Retrofit.Builder()
-            .baseUrl("")//ruta fija de nuestros endpoints
+            .baseUrl("https://pokeapi.co/api/v2/")//ruta fija de nuestros endpoints
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
